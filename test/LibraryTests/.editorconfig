@@ -1,0 +1,5 @@
+root = true
+
+[*.cs]
+# Permit underscores in test method names to match the course convention.
+dotnet_diagnostic.CA1707.severity = none
